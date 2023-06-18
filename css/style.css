@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+  max-width: 780px;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: rgb(206, 174, 114);
+}
+header{
+  text-align: center;
+  border-radius: 6px;
+  background-color: rgb(1, 29, 54);
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px 2%;
+  width: 100%;
+}
+
+header p{
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.form{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  
+}
+
+.form input{
+  border: none;
+  height: 35px;
+  padding-left: 6px;
+  border-radius: 6px;
+  background-color: rgb(1, 29, 54);
+  color: white;
+  font-weight: 800;
+ }
+
+ .form .btn {
+  border: 2px solid rgb(1, 29, 54);
+  cursor: pointer;
+  transition: 1s;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  font-weight:700;
+  text-align: center;
+  border-radius: 100%;
+  background-color: rgb(8, 165, 29);
+ }
+ .form .btn:hover{
+  background-color: rgb(3, 78, 43);
+ }
+
+/*              lista              */
+
+.container .lista-produtos .lista-produtos-single{
+  display: flex;
+  border-bottom: 1px solid rgb(1, 29, 54);
+}
+.container .lista-produtos .lista-produtos-single h3{
+  flex: 1;
+  text-transform: uppercase;
+  margin: 15px 0 10px 0;
+  font-size: 12px;
+}
+
+.container .lista-produtos .lista-produtos-single h3.price-produto{
+  text-align: right;
+  font-size: 10px;
+}
+.container .lista-produtos .lista-produtos-single h3.price-produto span{
+  background-color: rgb(1, 29, 54);
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
+
+button {
+  background-color: rgb(92, 7, 7);
+  border: none;
+  height: 35px;
+  max-width: 100px;
+  padding: 5px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  box-shadow:
+  3.3px 1.6px 3.6px rgba(0, 0, 0, 0.059),
+  9px 4.5px 10px rgba(0, 0, 0, 0.106),
+  21.7px 10.9px 24.1px rgba(0, 0, 0, 0.158),
+  72px 36px 80px rgba(0, 0, 0, 0.27)
+;
+}
+
+.soma-produtos{
+  position: absolute;
+  bottom: 20px;
+  border: 1px solid rgb(1, 29, 54);
+  border-radius: 6px;
+  padding: 5px;
+  color: white;
+  transition: 1.5s;
+  background-color: rgb(1, 29, 54);
+  cursor: none;
+}
+
+.soma-produtos:hover{
+  box-shadow:
+  3.3px 1.6px 3.6px rgba(0, 0, 0, 0.059),
+  9px 4.5px 10px rgba(0, 0, 0, 0.106),
+  21.7px 10.9px 24.1px rgba(0, 0, 0, 0.158),
+  72px 36px 80px rgba(0, 0, 0, 0.27)
+;
+}

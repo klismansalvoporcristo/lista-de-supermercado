@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de supermercado</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="container">
+    <header>
+      <h2>APP Lista de supermercado</h2>
+      <p>Desenvolvido por Klísman Salvoporcristo Pereira da Silva</p>
+    </header><!--header-->
+    <div class="form">
+      <input type="text" placeholder="Nome do produto" name="nome-produto">
+      <input type="number" step="0.01" placeholder="Valor do produto" name="valor-produto">
+      <input class="btn" type="submit" value="+" name="action" >
+    </div><!--form-->
+    <div class="lista-produtos">
+      
+    </div><!--lista-produtos-->
+    <div class="soma-produtos">
+      <h1 id="total">TOTAL: R$ 00,00</h1>
+    </div>
+
+    <button name="limpar">Limpar Lista</button>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
